@@ -1,0 +1,70 @@
+/* Globals */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, Arial, sans-serif;
+}
+
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #666d89;
+}
+
+/* Header */
+header {
+  background: #2d303a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 40px;
+  border-bottom: 6px solid #323746;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+.logo > .star {
+  color: #f06c64;
+}
+
+.main-menu {
+  display: flex;
+}
+
+.main-menu, .main-menu li {
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu li {
+  margin: 0 10px;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-menu li {
+  list-style-type: none;
+}
+
+/* Slider */
+.slider {
+  height: 200px;
+  background: #f06c64;
+}
+
+/* Main */
+
+main {
+  padding: 30px;
+}
